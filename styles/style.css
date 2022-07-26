@@ -1,0 +1,19 @@
+html {
+  background: #ffff;
+  font-family: "Raleway", "OpenSans";
+  font-style: normal;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+

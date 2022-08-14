@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./styles/intro.css">
     <link rel="stylesheet" href="./styles/social.css">
     <link rel="stylesheet" href="./styles/tabs.css">
+    <link rel="stylesheet" href="./styles/awesome.css">
+    <link rel="stylesheet" href="./styles/pricing.css">
+    <link rel="stylesheet" href="./styles/staff.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./fonts/stylesheet.css" />
     <title>Document</title>
@@ -71,8 +75,8 @@
             <div class="form__box">
               <input class="form__input" type="password" placeholder="Password">
             </div>
+            <button class="form__btn btn">Get started</button>
           </form>
-        <button class="form__btn btn">Get started</button>
       </div>
     </section>
 
@@ -148,52 +152,36 @@
       </div>
   </div>
       
-    <section class="container awesome__container">
-      <h2 class="title awesome__title">WHY THIS IS AWESOME</h2>
-      <div class="awesome__line"></div>
-      <h6 class="text awesome__text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      </h6>
-      <div class="awesome__design">
-        <div class="design__item design-item">
-          <div class="design-item__logo-block">
-            <img class="design-item__logo" src="./imgs/light.svg" alt="light" />
-          </div>
-          <h4 class="title design-item__title">Thoughtful Design</h4>
-          <h5 class="text design-item__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-            accumsan et viverra.
-          </h5>
+  <div class="awesome">
+    <div class="awesome__title">
+        <h2 class="awesome__title-text">Why this is awesome</h2>
+        <hr class="awesome__title-line">
+    </div>
+    <p class="awesome__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="awesome__items">
+        <div class="awesome__items-item">
+            <div class="awesome__items-img-container awesome__items-img-container_bulb">
+                <img src="/imgs/light.svg" alt="" class="awesome__items-img">
+            </div>
+            <h3 class="awesome__items-title">Thoughtful Design</h3>
+            <p class="awesome__items-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae possimus nostrum accusamus minima voluptatum nulla aliquid atque modi sapiente! Perspiciatis, fugit?</p>
+        </div><!--
+        --><div class="awesome__items-item">
+            <div class="awesome__items-img-container awesome__items-img-container_keyboard">
+                <img src="/imgs/keybord.svg" alt="" class="awesome__items-img">
+            </div>
+            <h3 class="awesome__items-title">Thoughtful Design</h3>
+            <p class="awesome__items-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae possimus nostrum accusamus minima voluptatum nulla aliquid atque modi sapiente! Perspiciatis, fugit?</p>
+        </div><!--
+        --><div class="awesome__items-item">
+            <div class="awesome__items-img-container awesome__items-img-container_thunder">
+                <img src="./imgs/bolt.svg" alt="" class="awesome__items-img">
+            </div>
+            <h3 class="awesome__items-title">Thoughtful Design</h3>
+            <p class="awesome__items-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae possimus nostrum accusamus minima voluptatum nulla aliquid atque modi sapiente! Perspiciatis, fugit?</p>
         </div>
-        <div class="design__item design-item">
-          <div class="design-item__logo-block">
-            <img
-              class="design-item__logo"
-              src="./imgs/keybord.svg"
-              alt="keybord"
-            />
-          </div>
-          <h4 class="title design-item__title">Thoughtful Design</h4>
-          <h5 class="text design-item__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-            accumsan et viverra.
-          </h5>
-        </div>
-        <div class="design__item design-item">
-          <div class="design-item__logo-block">
-            <img class="design-item__logo" src="./imgs/bolt.svg" alt="bolt" />
-          </div>
-          <h4 class="title design-item__title">Thoughtful Design</h4>
-          <h5 class="text design-item__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
-            accumsan et viverra.
-          </h5>
-        </div>
-      </div>
-    </section>
+    </div>
+</div>
 
     <div class="pricing">
       <div class="pricing__container">
@@ -257,7 +245,7 @@
               quo suscipit.</p>
               <div class="staff__item-square"></div>
               <div class="staff__item-person">
-                  <img src="./pictures/person1.png" alt="" class="staff__item-person-img">
+                  <img src="/imgs/staff/manager1.png" alt="" class="staff__item-person-img">
                   <div class="staff__item-person-info">
                       <h4 class="staff__item-person-name">Davis Rhiel Madsen</h4>
                       <p class="staff__item-person-job">Manager</p>
@@ -272,7 +260,7 @@
               quo suscipit.</p>
               <div class="staff__item-square"></div>
               <div class="staff__item-person">
-                  <img src="./pictures/person2.png" alt="" class="staff__item-person-img">
+                  <img src="./imgs/staff/manager2.png" alt="" class="staff__item-person-img">
                   <div class="staff__item-person-info">
                       <h4 class="staff__item-person-name">Jaydon Rosser</h4>
                       <p class="staff__item-person-job">Manager</p>
@@ -287,7 +275,7 @@
               quo suscipit.</p>
               <div class="staff__item-square"></div>
               <div class="staff__item-person">
-                  <img src="./pictures/person3.png" alt="" class="staff__item-person-img">
+                  <img src="./imgs/staff/manager3.png" alt="" class="staff__item-person-img">
                   <div class="staff__item-person-info">
                       <h4 class="staff__item-person-name">Cooper Dorwart</h4>
                       <p class="staff__item-person-job">Manager</p>
@@ -339,25 +327,25 @@
       <div class="contact__social">
           <div class="contact__social-box">
               <a href="" class="contact__social-link-icon">
-                  <img src="./pictures/fb-end.png" alt="" class="contact__social-img">
+                  <img src="./imgs/footer/fb.svg" alt="" class="contact__social-img">
               </a>
               <a href="" class="contact__social-link-icon">
-                  <img src="./pictures/twitter-end.png" alt="" class="contact__social-img">
+                  <img src="./imgs/footer/tw.svg" alt="" class="contact__social-img">
               </a>
               <a href="" class="contact__social-link-icon">
-                  <img src="./pictures/linkedin-end.png" alt="" class="contact__social-img">
+                  <img src="./imgs/footer/in.svg" alt="" class="contact__social-img">
               </a>
               <a href="" class="contact__social-link-icon">
-                  <img src="./pictures/pinterest-end.png" alt="" class="contact__social-img">
+                  <img src="./imgs/footer/pin.svg" alt="" class="contact__social-img">
               </a>
               <a href="" class="contact__social-link-icon">
-                  <img src="./pictures/instagramm-end.png" alt="" class="contact__social-img">
+                  <img src="./imgs/footer/insta.svg" alt="" class="contact__social-img">
               </a>
               <a href="" class="contact__social-link-icon">
-                  <img src="./pictures/github-end.png" alt="" class="contact__social-img">
+                  <img src="./imgs/footer/cat.svg" alt="" class="contact__social-img">
               </a>
               <a href="" class="contact__social-link-icon">
-                  <img src="./pictures/wave-end.png" alt="" class="contact__social-img">
+                  <img src="./imgs/footer/rss_icon.svg" alt="" class="contact__social-img">
               </a>
           </div>
           <p class="contact__social-text">© 2015 Axure Themes</p>
